@@ -1,13 +1,9 @@
-import CartInputForm from "components/CartInputForm";
-import Loader from "components/Loader";
-import CartItemList from 'components/CartItemList';
+import Cart from 'container/Cart';
 
 export const App = () => {
   return (
-    <div className="app">
-      <CartInputForm />
-      <Loader />
-      <CartItemList />
+    <div className="App">
+        <Cart />
     </div>
   );
 };
